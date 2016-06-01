@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.udacityandroidnanodegreeprojectzero.MainActivity">
+
+    <TextView
+        android:id="@+id/app_title_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/activity_vertical_double_margin"
+        android:text="@string/app_title"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@color/colorUdacity"/>
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_below="@id/app_title_text_view"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/movie_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:background="@color/colorUdacity"
+            android:text="@string/popular_movies"
+            android:textColor="@color/colorWhite"/>
+
+        <Button
+            android:id="@+id/stock_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:background="@color/colorUdacity"
+            android:text="@string/stock_hawk"
+            android:textColor="@color/colorWhite"/>
+
+        <Button
+            android:id="@+id/bigger_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:background="@color/colorUdacity"
+            android:text="@string/build_it_bigger"
+            android:textColor="@color/colorWhite"/>
+
+        <Button
+            android:id="@+id/material_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:background="@color/colorUdacity"
+            android:text="@string/app_material"
+            android:textColor="@color/colorWhite"/>
+
+        <Button
+            android:id="@+id/ubiq_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:background="@color/colorUdacity"
+            android:text="@string/go_ubiquitous"
+            android:textColor="@color/colorWhite"/>
+
+        <Button
+            android:id="@+id/capstone_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:background="@color/colorUdacity"
+            android:text="@string/capstone"
+            android:textColor="@color/colorWhite"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
