@@ -8,4 +8,13 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="CustomButtonStyle" parent="Base.TextAppearance.AppCompat.Widget.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/activity_vertical_margin</item>
+        <item name="android:background">@color/colorUdacity</item>
+        <item name="android:textColor">@color/colorWhite</item>
+
+        <item name="android:onClick">buttonClick</item>
+    </style>
 </resources>
